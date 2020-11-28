@@ -1,0 +1,71 @@
+/* write some css below */
+
+body {
+    margin: 0;
+}
+.banner-wrap{
+    background-image: url('https://source.unsplash.com/featured/desk');
+    background-size: cover;
+    background-position:center;
+    padding: 100px ;
+    text-align: center;
+}
+h1{
+    color:white;
+    font-size: 45px;
+    margin:0;
+    font-weight: bold;
+}
+
+.banner-wrap p {
+    color:white;
+    font-size: 25px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+
+}
+ .cards-wrap{
+     width: 900px;
+     margin: 60px auto ;
+ }
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    background: white; 
+    box-shadow: 0 0 3px;
+    border-radius: 4px;
+    padding: 30px;
+    margin: 0px 20px;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 15px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 0;
+
+}
+
